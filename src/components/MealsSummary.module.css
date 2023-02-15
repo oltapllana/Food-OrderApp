@@ -1,0 +1,17 @@
+.summary{
+    margin: 2rem auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 40rem;
+    background: rgb(69, 64, 64);
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+    margin-top: -100px;
+
+}
+h1{
+    font-weight: bolder;
+}
