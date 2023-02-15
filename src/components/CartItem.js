@@ -7,7 +7,7 @@ const CartItem = (props) => {
        props.onPop(popup)
     }
     return <div className={styled.cartItem}>
-        <button onClick={openPopup}>
+        <button onClick={openPopup} className={styled.cart__button}>
             <p>{props.meal}</p>
         </button>
     </div>

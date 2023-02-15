@@ -15,3 +15,11 @@
     height: 50%;
     background-color: white;
 }
+.popup__close{
+    background-color: white;
+    color:  #8a2b06;
+    border: 1px solid  #8a2b06;
+}
+.popup__actions{
+    float: right;
+}

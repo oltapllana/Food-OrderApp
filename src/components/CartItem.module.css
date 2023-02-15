@@ -1,4 +1,4 @@
-.cartItem{
+.cartItem, .cart__button{
     background-color: #8a2b06;
     padding: 5px;
     border-radius: 50%;
@@ -7,6 +7,11 @@
     justify-content: center;
     align-items: center;
 }
+.cart__button{
+    border: none;
+}
 p{
     padding: 7px;
+    color: white;
+    font-weight: bold;
 }

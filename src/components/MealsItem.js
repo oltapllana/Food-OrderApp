@@ -38,6 +38,8 @@ const MealsItem = (props) => {
                   <Button type='submit' >+ Add</Button>
               </div>
             </form>
+            <div className={styled.line}></div>
+
           </li>
     )
     
