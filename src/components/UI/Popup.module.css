@@ -15,6 +15,11 @@
     height: 50%;
     background-color: white;
 }
+.li{
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
 .popup__close{
     background-color: white;
     color:  #8a2b06;
@@ -22,4 +27,23 @@
 }
 .popup__actions{
     float: right;
+}
+.popup__totalamount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    font-weight: bolder;
+}
+.popup__amount{
+   border: 1px solid lightgray;
+   padding: 5px 10px 5px 10px;
+   border-radius: 8px;
+}
+.popup__amounts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
 }
