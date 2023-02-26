@@ -9,7 +9,7 @@ const Header = (props) =>{
             <div className={styled.header}>
                 <div className={styled.nav}>
                     <a href='/'><h1>ReactMeals</h1></a>
-                    <Cart meal={props.meal} onPopItem={props.onPops}></Cart>
+                    <Cart meal={props.meal}  onPopItem={props.onPops}></Cart>
                 </div>
                 </div>
                 <div className={styled.main_image}> <img  src={src} alt="Meals"/></div>

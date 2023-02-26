@@ -8,7 +8,7 @@ const Card = (props) => {
       <div className={styled.cart_style}>
           <img src={src} alt="shopping cart" />
           <p className={styled.cart__text}>Your Card</p>
-          <CartItem meal={props.meal} onPop = {props.onPopItem}></CartItem>
+          <CartItem meal={props.meal}  onPop = {props.onPopItem}></CartItem>
       </div>
     </div>
   );

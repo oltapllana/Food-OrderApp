@@ -9,6 +9,12 @@ const Popup = (props) => {
     console.log("closingg");
     setShow(false);
   };
+  console.log(props.selectedMeals[0].price);
+
+  const sum = props.selectedMeals.map(datum => datum.amount * datum.price).reduce((a, b) => a + b)
+  console.log(sum);
+ 
+ 
 
   console.log(props.selectedMeals);
   return (
@@ -30,6 +36,7 @@ const Popup = (props) => {
               );
             })}
             <div className={styled.popup__actions}>
+              <div><h2>Total Amount</h2> {sum}</div>
               <Button onClick={closePopup} className={btnStyle.popup__close}>Close</Button>
               <Button>Order</Button>
             </div>

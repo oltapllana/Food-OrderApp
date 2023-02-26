@@ -12,7 +12,7 @@ const Meals = (props) => {
           description = {meal.description}
           price = {meal.price}
           onGetMeal ={props.onGetMeal}
-        ></MealsItem>
+        />
         );
       })}
     </ul>

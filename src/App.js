@@ -42,7 +42,6 @@ function App() {
     setEnterMeal(+enterMeal + +enteredMeal)
     setMeals([enteredMealItem , ...meals])
   }
-  console.log(meals);
   console.log(enterMeal);
   const getPop = (enteredPop) =>{
     console.log(enteredPop);
@@ -52,7 +51,7 @@ function App() {
  
   return (
     <div>
-      <Header meal={enterMeal} onPops ={getPop}></Header>
+      <Header meal={enterMeal}  onPops ={getPop}></Header>
       {openPopup && <Popup selectedMeals={meals}></Popup>}
       <MealsSummary></MealsSummary>
       <Meals meals={DUMMY_MEALS} onGetMeal={getMeal}></Meals>
