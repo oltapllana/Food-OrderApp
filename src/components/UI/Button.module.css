@@ -7,8 +7,19 @@
     font-weight: bolder;
     margin-right: 5px;
 }
+.alo:hover{
+    background-color: white;
+    color: #8a2b06;
+    cursor: pointer;
+    border: #8a2b06 1px solid;
+}
 .popup__close{
     background: white;
     color: #8a2b06;
     border: 1px solid #8a2b06;
+    cursor: pointer;
+}
+.popup__close:hover{
+    background:  #8a2b06;
+    color: white;
 }
